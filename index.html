@@ -27,6 +27,7 @@
         
     <link rel="stylesheet" href="css/custom-style.css">
     <link rel="stylesheet" href="css/master-style.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
 
 
   </head>
@@ -38,9 +39,8 @@
               <header class="navbar">
                 <div class="container">
                   <div class="navbar-brand">
-                    <a class="navbar-item">
-                      <!--<img src="https://bulma.io/images/bulma-type-white.png" alt="Logo">-->
-                      10!0
+                    <a class="navbar-item is-4 is-active">
+                      <b>10!0</b>
                     </a>
                     <span class="navbar-burger burger" data-target="navbarMenuHeroC">
                       <span></span>
@@ -73,7 +73,7 @@
           
             <!-- Hero content: will be in the middle -->
             <div class="hero-body">
-              <div class="container level">
+              <div class="container level is-desktop">
                 <div class="level-left">
                     <div>
                         <h1 class="title is-1">
@@ -97,21 +97,89 @@
                 </div>
               </div>
             </div>
+
+            <div class="hero-foot has-text-centered">
+              <a href="#info">
+                <i class="fas fa-angle-down title is-2"></i>
+              </a>
+            </div>
           </section>
      </header>
+     
+     
      <main>
-         <section class="section is-medium">
-            <div class="container">
-                <h1 class="title">Section</h1>
-                <h2 class="subtitle">
-                  A simple container to divide your page into <strong>sections</strong>, like the one you're currently reading
-                </h2>
-              </div> 
-         </section>
-        <h1>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil at voluptatum vel nisi veniam. Dolore, incidunt modi, dolorum perspiciatis est assumenda earum officia mollitia unde tempora totam natus debitis commodi?</h1>
+      <section class="section section-feature-grey is-medium" id="info">
+        <div class="container">
+          <div class="title-wrapper has-text-centered">
+            <h2 class="title is-2">Lorem ipsum</h2>
+            <h3 class="subtitle is-5 is-muted">Lorem ipsum</h3>
+            <div class="divider is-centered"></div>
+          </div>
+          <div class="content-wrapper">
+            <div class="columns">
+                <div class="column is-one-third">
+                    <div class="card is-bordered has-text-centered revealOnScroll delay-1 animated fadeInLeft" data-animation="fadeInLeft">
+                        <div class="card-title">
+                            <h4>Pixel perfect</h4>
+                        </div>
+                        <div class="card-icon">
+                            <img alt="AppSeed App Generator Logo." class="lazy" src="assets/images/illustrations/icons/mouse-globe.svg" style="display: inline-block;">
+                        </div>
+                        <div class="card-text">
+                            <p>Flexbox based. Mobile First layout, small footprint</p>
+                        </div>
+                        <div class="card-action">
+                            <a target="_blank" href="" class="button btn-align-md accent-btn raised">Get Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card card-content is-bordered has-text-centered revealOnScroll delay-2 animated fadeInLeft" data-animation="fadeInLeft">
+                        <div class="title">
+                            <h4>Tooling</h4>
+                        </div>
+                        <div class="card-image">
+                            <img class="lazy" src="assets/images/illustrations/icons/laptop-cloud.svg" style="display: inline-block;">
+                        </div>
+                        <div class="card-text">
+                            <p>Generated with Panini Static Generator. Gulp Scripts</p>
+                        </div>
+                        <div class="card-action">
+                            <a target="_blank" href="" class="button btn-align-md secondary-btn raised">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="card is-bordered has-text-centered revealOnScroll delay-3 animated fadeInLeft" data-animation="fadeInLeft">
+                        <div class="card-title">
+                            <h4>Documented</h4>
+                        </div>
+                        <div class="card-icon">
+                            <img class="lazy" src="assets/images/illustrations/icons/plug-cloud.svg" style="display: inline-block;">
+                        </div>
+                        <div class="card-text">
+                            <p>Read More about JAMStack and Bulma Css on our blog</p>
+                        </div>
+                        <div class="card-action">
+                            <a target="_blank" href="https://blog.appseed.us" class="button btn-align-md primary-btn raised">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+      </section>
      </main>
-     <footer>
 
-     </footer>
+
+     <footer class="footer">
+      <div class="content has-text-centered is-dark">
+        <p>
+          <strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>. The source code is licensed
+          <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
+          is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+        </p>
+      </div>
+    </footer>
   </body>
 </html>
