@@ -1,0 +1,25 @@
+{
+  "name": "distortedbits-uf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sass/master-style.scss",
+  "scripts": {
+    "css-build": "node-sass --omit-source-map-url sass/master-style.scss css/master-style.css",
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Distortedbits-uf/Distortedbits-uf.git"
+  },
+  "author": "voro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Distortedbits-uf/Distortedbits-uf/issues"
+  },
+  "homepage": "https://github.com/Distortedbits-uf/Distortedbits-uf#readme",
+  "devDependencies": {
+    "bulma": "^0.9.1",
+    "node-sass": "^5.0.0"
+  }
+}

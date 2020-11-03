@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+// Import a Google Font
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+// Set your brand colors
+$brand-color: #2f80ed;
+$white-shades: #FFFFFF;
+$white-accent: #E5E5E5;
+$dark-shades: #000000;
+$dark-accent: #CC282C;
+
+// Update Bulma's global variables
+$family-sans-serif: 'Open Sans', sans-serif;
+$dark: $dark-shades;
+$widescreen-enabled: false;
+$fullhd-enabled: false;
+
+// Update some of Bulma's component variables
+$body-background-color: $white-shades;
+$control-border-width: 0.1rem;
+$input-border-color: solid;
+//$input-shadow: ;
+
+@import "../node_modules/bulma/bulma.sass";
+
+
