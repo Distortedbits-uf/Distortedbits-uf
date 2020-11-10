@@ -17,13 +17,41 @@ $widescreen-enabled: false;
 $fullhd-enabled: false;
 $footer-background-color: $dark-shades;
 
+$link: $white-accent;
 
 // Update some of Bulma's component variables
 $body-background-color: $white-shades;
 $control-border-width: 0.1rem;
 $input-border-color: solid;
+
+$column-gap: 2rem;
 //$input-shadow: ;
 
 @import "../node_modules/bulma/bulma.sass";
 
 
+//NORMAL CSS
+html{
+    scroll-behavior: smooth;
+}
+  
+body{
+    transition: all 2s;
+}
+  
+.footer{
+    color: $white-shades;
+}
+
+.footer .title{
+    color: $white-shades;
+}
+
+.quick-links{
+    color: white;
+
+}
+
+.quick-links li{
+    padding-bottom: 1rem;
+}

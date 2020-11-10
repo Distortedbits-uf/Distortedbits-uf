@@ -1,0 +1,54 @@
+<!-- <div class="columns is-centered is-dark">
+            <div class="column">
+                <h5 class="title is-4">10!0 Distortedbits UF</h5>
+                <p>
+                    Distortedbits UF is a company registered with Ung Företagsamhet (UF), 
+                    the Swedish branch of <a href="https://www.jaworldwide.org/">Junior Achievement (JA Worldwide)</a>.
+                    UF teaches students in the skills necessary to become an entrepreneur as well as the skills necessary to 
+                    Create, Run and eventually Liquidate a company. Distortedbits UF produce and develop tools that can be
+                    used in public with security in mind. Mainly our Icepick USB line of products.
+                </p>
+                <br>
+                <ul>
+                    <li>
+                        About UF: <a href="https://ungforetagsamhet.se/om-ung-foretagsamhet">https://ungforetagsamhet.se/om-ung-foretagsamhet</a>
+                    </li>
+                    <br>
+                    <li>
+                        UF website: <a href="https://ungforetagsamhet.se/">https://ungforetagsamhet.se/</a>
+                    </li>
+                    <br>
+                    <li>
+                        UF company: <a href="https://ungforetagsamhet.se/company/distortedbits-uf">https://ungforetagsamhet.se/company/distortedbits-uf</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="column" style="text-align: center;">
+                <h5 class="title is-4">Quick links</h5>
+                <ul class="quick-links">
+                  <li>
+                    <a href="./pages/documentation/">Documentation</a>
+                  </li>
+                  <li>
+                    <a href="./pages/documentation/">Resellers</a>
+                  </li>
+                  <li>
+                    <a href="./pages/documentation/">Contact</a>
+                  </li>
+                  <li>
+                    <a href="./pages/documentation/">About</a>
+                  </li>
+                  <li>
+                    <a href="./pages/documentation/">FAQ</a>
+                  </li>
+                </ul>
+            </div>
+            <div class="column">
+              <h5 class="title is-4">Contact</h5>
+              <ul>
+                <li>
+                  Contact email: <a href="mailto:junior.karlsson@elev.ga.ntig.se">junior.karlsson@elev.ga.ntig.se</a>
+                </li>
+              </ul>
+            </div>
+          </div> -->
