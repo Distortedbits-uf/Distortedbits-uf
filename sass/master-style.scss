@@ -16,7 +16,7 @@ $dark: $dark-shades;
 $widescreen-enabled: false;
 $fullhd-enabled: false;
 $footer-background-color: $dark-shades;
-
+$navbar-background-color: $dark-shades;
 $link: $white-accent;
 
 // Update some of Bulma's component variables
@@ -28,7 +28,14 @@ $column-gap: 2rem;
 //$input-shadow: ;
 
 @import "../node_modules/bulma/bulma.sass";
-
+/*
+@import "../node_modules/bulma/sass/components/_all.sass";
+@import "../node_modules/bulma/sass/components/modal.sass";
+@import "../node_modules/bulma/sass/components/level.sass";
+@import "../node_modules/bulma/sass/elements/button.sass";
+@import "../node_modules/bulma/sass/elements/container.sass";
+@import "../node_modules/bulma/sass/elements/title.sass";
+*/
 
 //NORMAL CSS
 html{
@@ -96,4 +103,8 @@ body{
     width: 100%;
     height: 15rem;
 
+ }
+
+ .showcase_img{
+    width: 100%; height: 100%;
  }
