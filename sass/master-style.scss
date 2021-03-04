@@ -113,3 +113,20 @@ body{
  .back-button{
      margin-top: 3rem;
  }
+
+ a{
+     color: #000000;
+     text-decoration: underline;
+ }
+
+ span a{
+    color: #FFFFFF;
+ }
+
+.navbar-item{
+     text-decoration: none;
+ }
+
+.navbar-item:hover{
+    color: #AAAAAA;
+}

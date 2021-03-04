@@ -1,4 +1,3 @@
-
 //BULMA navbar example code...
 //Using it cause it was designed to work with bulmas structure.
 document.addEventListener('DOMContentLoaded', () => {

@@ -39,6 +39,9 @@
     <script src="https://kit.fontawesome.com/db5fa26692.js" defer></script>
     <script src="../../index.js"></script>
 
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   </head>
   <body>
       <header>
@@ -162,7 +165,7 @@
       <section class="section section-feature-grey is-medium container" id="info">
         <h1 class="title has-text-centered">View Whats Available!</h1>
         <hr>
-        <div class="grid">
+        <div class="grid" data-aos="fade-right" data-aos-anchor-placement="top-center">
           <a class="showcase_card" href="/pages/documentation/">
             <div class="card_holder has-text-centered">
               <img src="./img/Logo.webp" alt="No image available, showing logo" class="card_img" style="filter: invert();" >
@@ -222,5 +225,8 @@
             <p>Distortedbits UF © All rights reserved 2021</p>
           </div>
     </footer>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
