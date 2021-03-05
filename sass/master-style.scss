@@ -90,6 +90,8 @@ body{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+
+    text-decoration: none;
  }
   
 .showcase_card:hover {
@@ -121,6 +123,11 @@ body{
 
  span a{
     color: #FFFFFF;
+    text-decoration: none;
+ }
+
+ span a:hover{
+    color: #AFAFAF;
  }
 
 .navbar-item{
@@ -128,5 +135,19 @@ body{
  }
 
 .navbar-item:hover{
-    color: #AAAAAA;
+    color: #AAAAAA !important;
+}
+
+.button{
+    text-decoration: none;
+    transition: all 150ms ease;
+}
+
+.back-to-top{
+    position: fixed;
+    left: auto;
+    right: 0.1rem;
+    top: auto;
+    bottom: 1rem;
+    transition: all 150 ease !important;
 }

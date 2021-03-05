@@ -7190,7 +7190,8 @@ body {
   padding-bottom: 0.5rem;
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  text-decoration: none; }
 
 .showcase_card:hover {
   box-shadow: rgba(2, 8, 20, 0.1) 0px 0.35em 1.175em, rgba(2, 8, 20, 0.08) 0px 0.175em 0.5em;
@@ -7215,10 +7216,26 @@ a {
   text-decoration: underline; }
 
 span a {
-  color: #FFFFFF; }
+  color: #FFFFFF;
+  text-decoration: none; }
+
+span a:hover {
+  color: #AFAFAF; }
 
 .navbar-item {
   text-decoration: none; }
 
 .navbar-item:hover {
-  color: #AAAAAA; }
+  color: #AAAAAA !important; }
+
+.button {
+  text-decoration: none;
+  transition: all 150ms ease; }
+
+.back-to-top {
+  position: fixed;
+  left: auto;
+  right: 0.1rem;
+  top: auto;
+  bottom: 1rem;
+  transition: all 150 ease !important; }
